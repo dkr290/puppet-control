@@ -17,20 +17,25 @@ mod 'puppetlabs/java',        '2.4.0'
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
 
-mod 'ssh',
-  :git  => 'https://github.com/dkr290/puppet-ssh.git',
-  :ref  => 'master'
+#mod 'ssh',
+#  :git  => 'https://github.com/dkr290/puppet-ssh.git',
+#  :ref  => 'master'
 
-mod 'ntp',
-  :git  => 'https://github.com/dkr290/puppet-ntp.git',
-  :ref  => 'master'
+#mod 'ntp',
+#  :git  => 'https://github.com/dkr290/puppet-ntp.git',
+#  :ref  => 'master'
 
 
 mod 'role',
   :git  => 'https://github.com/dkr290/puppet-role.git',
   :ref  => 'master'
 
-#
+
 mod 'profile',
   :git  => 'https://github.com/dkr290/puppet-profile.git',
   :ref  => 'master'
+
+
+mod 'nginx',
+  :git => 'https://github.com/dkr290/puppet-nginx.git',
+  :ref => 'master'
